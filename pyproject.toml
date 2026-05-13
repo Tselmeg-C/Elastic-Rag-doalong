@@ -1,0 +1,17 @@
+[project]
+name = "elastic-rag-doalong"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "elasticsearch==8.13.0",
+    "ipykernel>=7.2.0",
+    "ipywidgets>=8.1.8",
+    "jupyter>=1.1.1",
+    "notebook==7.1.2",
+    "openai>=2.36.0",
+    "pandas>=3.0.3",
+    "scikit-learn>=1.8.0",
+    "tqdm>=4.67.3",
+]
