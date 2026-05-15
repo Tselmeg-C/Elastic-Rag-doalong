@@ -12,6 +12,7 @@ dependencies = [
     "notebook==7.1.2",
     "openai>=2.36.0",
     "pandas>=3.0.3",
+    "python-dotenv>=1.2.2",
     "scikit-learn>=1.8.0",
     "tqdm>=4.67.3",
 ]
