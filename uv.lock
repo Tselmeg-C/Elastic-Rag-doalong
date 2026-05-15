@@ -377,6 +377,7 @@ dependencies = [
     { name = "ipykernel" },
     { name = "ipywidgets" },
     { name = "jupyter" },
+    { name = "minsearch" },
     { name = "notebook" },
     { name = "openai" },
     { name = "pandas" },
@@ -391,6 +392,7 @@ requires-dist = [
     { name = "ipykernel", specifier = ">=7.2.0" },
     { name = "ipywidgets", specifier = ">=8.1.8" },
     { name = "jupyter", specifier = ">=1.1.1" },
+    { name = "minsearch", specifier = ">=0.0.11" },
     { name = "notebook", specifier = "==7.1.2" },
     { name = "openai", specifier = ">=2.36.0" },
     { name = "pandas", specifier = ">=3.0.3" },
@@ -1025,6 +1027,20 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/bd/c0/9f7c9a46090390368a4d7bcb76bb87a4a36c421e4c0792cdb53486ffac7a/matplotlib_inline-0.2.2.tar.gz", hash = "sha256:72f3fe8fce36b70d4a5b612f899090cd0401deddc4ea90e1572b9f4bfb058c79", size = 8150, upload-time = "2026-05-08T17:33:33.49Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/41/09/5b161152e2d90f7b87f781c2e1267494aef9c32498df793f73ad0a0a494a/matplotlib_inline-0.2.2-py3-none-any.whl", hash = "sha256:3c821cf1c209f59fb2d2d64abbf5b23b67bcb2210d663f9918dd851c6da1fcf6", size = 9534, upload-time = "2026-05-08T17:33:32.055Z" },
+]
+
+[[package]]
+name = "minsearch"
+version = "0.0.11"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "scikit-learn" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/b8/ad/969fbf52862d51bfecc587f39735fa8248794fa98e04f59da7c09aaafe90/minsearch-0.0.11.tar.gz", hash = "sha256:3a19d4121e111fbaa1003acb9a7012eac364b5074fe1f48cfe71028816d099d4", size = 138170, upload-time = "2026-05-04T07:08:41.717Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/6f/0d/64bd54b3f12857565ccfb94ae4830c96908ae775feb3902b1390f1b383bf/minsearch-0.0.11-py3-none-any.whl", hash = "sha256:9a34f3dddc9634895707487291124b002f329eaae0ba83df94da41fd2465ddf1", size = 33355, upload-time = "2026-05-04T07:08:43.205Z" },
 ]
 
 [[package]]
